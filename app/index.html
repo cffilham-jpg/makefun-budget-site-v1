@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f3ea" />
+    <title>Rupiah Rapi · Budget rumah tangga</title>
+    <link rel="icon" href="./mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="site-header">
+        <a class="brand" href="#/"><span class="brand-mark">R</span><span><strong>rupiah</strong><em>rapi</em></span></a>
+        <button class="mobile-menu" aria-label="Buka navigasi">☰</button>
+        <nav class="main-nav" aria-label="Navigasi utama">
+          <a href="#/" data-route="/">Ringkasan</a>
+          <a href="#/transactions" data-route="/transactions">Transaksi</a>
+          <a href="#/planner" data-route="/planner">Rencana</a>
+          <a href="#/goals" data-route="/goals">Tujuan</a>
+          <a href="#/debt" data-route="/debt">Utang</a>
+          <a href="#/bills" data-route="/bills">Tagihan</a>
+        </nav>
+        <div class="header-profile"><span class="month-label">NOV 2026</span><span class="avatar">AP</span></div>
+      </header>
+      <main id="app" class="page-wrap"></main>
+      <footer class="site-footer"><span>Rupiah Rapi</span><span>Pelan-pelan, jadi tenang.</span><span>Data tersimpan di perangkatmu</span></footer>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
